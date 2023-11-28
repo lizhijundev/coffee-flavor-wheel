@@ -1,15 +1,24 @@
 <script setup lang="ts">
 import * as echarts from 'echarts';
 import { ref, onMounted } from "vue";
-import {EChartsOption, init} from "echarts";
-import flavor from "./flavor.json"
+import flavor from "./coffee-flavor.json"
 
-const data: any = {
-  name: "Coffee Flavor",
-  value: "",
-  children: flavor
 
+function processJSON(data:any) {
+  return data.map((item: any) => {
+    const processedItem = {
+      name: item.label,
+      itemStyle: item.itemStyle
+    };
+    if (item.children) {
+      processedItem.children = processJSON(item.children);
+    } else {
+      processedItem.value = 1;
+    }
+    return processedItem;
+  });
 }
+
 
 const option: any =  {
   series: [
@@ -21,8 +30,7 @@ const option: any =  {
         focus: 'ancestor'
       },
       animationDurationUpdate: 1000,
-      nodeClick: undefined,
-      data: data.children,
+      data: processJSON(flavor),
       universalTransition: true,
       itemStyle: {
         borderWidth: 1,
@@ -37,21 +45,13 @@ const option: any =  {
 
 
 onMounted(() => {
-
   // 获取dom，断言HTMLElement类型，否则会报错
   const chartEle: HTMLElement = document.getElementById('coffee-flavor') as HTMLElement;
-  const chart = init(chartEle);
-
+  const chart = echarts.init(chartEle);
   option && chart.setOption(option);
-  console.log(chartEle)
-
-
-
 })
 </script>
 <template>
-  <div>hello</div>
-
   <div id="coffee-flavor" style="width: 800px; height: 100vh;"></div>
 </template>
 

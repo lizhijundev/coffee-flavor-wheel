@@ -1,6 +1,7 @@
 # 咖啡风味轮（Coffee flavor wheel）
-## Coffee flavor wheel
 数据来源：[世界咖啡研究|感官词典](https://worldcoffeeresearch.org/resources/sensory-lexicon)
+
+![](/Users/zhijunli/dev/coffee-flavor-wheel/coffee-flavor.png)
 
 ## Project Setup
 

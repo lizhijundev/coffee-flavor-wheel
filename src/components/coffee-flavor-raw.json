@@ -1,39 +1,39 @@
 [
   {
-    "name": "花香",
+    "name": "Flora",
     "itemStyle": {
       "color": "#da0d68"
     },
     "children": [
       {
-        "name": "红茶味",
+        "name": "Black Tea",
         "value": 1,
         "itemStyle": {
           "color": "#975e6d"
         }
       },
       {
-        "name": "花香",
+        "name": "Floral",
         "itemStyle": {
           "color": "#e0719c"
         },
         "children": [
           {
-            "name": "洋甘菊",
+            "name": "Chamomile",
             "value": 1,
             "itemStyle": {
               "color": "#f99e1c"
             }
           },
           {
-            "name": "玫瑰花",
+            "name": "Rose",
             "value": 1,
             "itemStyle": {
               "color": "#ef5a78"
             }
           },
           {
-            "name": "茉莉花",
+            "name": "Jasmine",
             "value": 1,
             "itemStyle": {
               "color": "#f7f1bd"
@@ -44,40 +44,40 @@
     ]
   },
   {
-    "name": "水果味",
+    "name": "Fruity",
     "itemStyle": {
       "color": "#da1d23"
     },
     "children": [
       {
-        "name": "浆果",
+        "name": "Berry",
         "itemStyle": {
           "color": "#dd4c51"
         },
         "children": [
           {
-            "name": "黑莓",
+            "name": "Blackberry",
             "value": 1,
             "itemStyle": {
               "color": "#3e0317"
             }
           },
           {
-            "name": "覆盆子",
+            "name": "Raspberry",
             "value": 1,
             "itemStyle": {
               "color": "#e62969"
             }
           },
           {
-            "name": "蓝莓",
+            "name": "Blueberry",
             "value": 1,
             "itemStyle": {
               "color": "#6569b0"
             }
           },
           {
-            "name": "草莓",
+            "name": "Strawberry",
             "value": 1,
             "itemStyle": {
               "color": "#ef2d36"
@@ -86,20 +86,20 @@
         ]
       },
       {
-        "name": "干果",
+        "name": "Dried Fruit",
         "itemStyle": {
           "color": "#c94a44"
         },
         "children": [
           {
-            "name": "葡萄干",
+            "name": "Raisin",
             "value": 1,
             "itemStyle": {
               "color": "#b53b54"
             }
           },
           {
-            "name": "李子",
+            "name": "Prune",
             "value": 1,
             "itemStyle": {
               "color": "#a5446f"
@@ -108,7 +108,7 @@
         ]
       },
       {
-        "name": "其它类水果",
+        "name": "Other Fruit",
         "itemStyle": {
           "color": "#dd4c51"
         },
@@ -723,7 +723,7 @@
     ]
   },
   {
-    "name": "甜",
+    "name": "Sweet",
     "itemStyle": {
       "color": "#e65832"
     },

@@ -1,0 +1,822 @@
+[
+  {
+    "name": "flora",
+    "label": "花香味",
+    "itemStyle": {
+      "color": "#da0d68"
+    },
+    "children": [
+      {
+        "name": "black-tea",
+        "label": "红茶",
+        "itemStyle": {
+          "color": "#975e6d"
+        }
+      },
+      {
+        "name": "floral",
+        "label": "花香味",
+        "itemStyle": {
+          "color": "#e0719c"
+        },
+        "children": [
+          {
+            "name": "chamomile",
+            "label": "洋甘菊",
+            "itemStyle": {
+              "color": "#f99e1c"
+            }
+          },
+          {
+            "name": "rose",
+            "label": "玫瑰",
+            "itemStyle": {
+              "color": "#ef5a78"
+            }
+          },
+          {
+            "name": "jasmine",
+            "label": "茉莉花",
+            "itemStyle": {
+              "color": "#f7f1bd"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fruity",
+    "label": "水果味",
+    "itemStyle": {
+      "color": "#da1d23"
+    },
+    "children": [
+      {
+        "name": "berry",
+        "label": "浆果",
+        "itemStyle": {
+          "color": "#dd4c51"
+        },
+        "children": [
+          {
+            "name": "blackberry",
+            "label": "黑莓",
+            "itemStyle": {
+              "color": "#3e0317"
+            }
+          },
+          {
+            "name": "raspberry",
+            "label": "覆盆子",
+            "itemStyle": {
+              "color": "#e62969"
+            }
+          },
+          {
+            "name": "blueberry",
+            "label": "蓝莓",
+            "itemStyle": {
+              "color": "#6569b0"
+            }
+          },
+          {
+            "name": "strawberry",
+            "label": "草莓",
+            "itemStyle": {
+              "color": "#ef2d36"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dried-fruit",
+        "label": "干果",
+        "itemStyle": {
+          "color": "#c94a44"
+        },
+        "children": [
+          {
+            "name": "raisin",
+            "label": "葡萄干",
+            "itemStyle": {
+              "color": "#b53b54"
+            }
+          },
+          {
+            "name": "李子干",
+            "label": "修剪",
+            "itemStyle": {
+              "color": "#a5446f"
+            }
+          }
+        ]
+      },
+      {
+        "name": "other-fruit",
+        "label": "其他水果",
+        "itemStyle": {
+          "color": "#dd4c51"
+        },
+        "children": [
+          {
+            "name": "coconut",
+            "label": "椰子",
+            "itemStyle": {
+              "color": "#f2684b"
+            }
+          },
+          {
+            "name": "cherry",
+            "label": "樱桃",
+            "itemStyle": {
+              "color": "#e73451"
+            }
+          },
+          {
+            "name": "pomegranate",
+            "label": "石榴",
+            "itemStyle": {
+              "color": "#e65656"
+            }
+          },
+          {
+            "name": "pineapple",
+            "label": "菠萝",
+            "itemStyle": {
+              "color": "#f89a1c"
+            }
+          },
+          {
+            "name": "grape",
+            "label": "葡萄",
+            "itemStyle": {
+              "color": "#aeb92c"
+            }
+          },
+          {
+            "name": "apple",
+            "label": "苹果",
+            "itemStyle": {
+              "color": "#4eb849"
+            }
+          },
+          {
+            "name": "peach",
+            "label": "桃子",
+            "itemStyle": {
+              "color": "#f68a5c"
+            }
+          },
+          {
+            "name": "pear",
+            "label": "梨子",
+            "itemStyle": {
+              "color": "#baa635"
+            }
+          }
+        ]
+      },
+      {
+        "name": "citrus-fruit",
+        "label": "柑橘类水果",
+        "itemStyle": {
+          "color": "#f7a128"
+        },
+        "children": [
+          {
+            "name": "grapefruit",
+            "label": "柚子",
+            "itemStyle": {
+              "color": "#f26355"
+            }
+          },
+          {
+            "name": "orange",
+            "label": "橙子",
+            "itemStyle": {
+              "color": "#e2631e"
+            }
+          },
+          {
+            "name": "lemon",
+            "label": "柠檬",
+            "itemStyle": {
+              "color": "#fde404"
+            }
+          },
+          {
+            "name": "lime",
+            "label": "酸橙",
+            "itemStyle": {
+              "color": "#7eb138"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sour-fermented",
+    "label": "酸酵味",
+    "itemStyle": {
+      "color": "#ebb40f"
+    },
+    "children": [
+      {
+        "name": "sour",
+        "label": "酸",
+        "itemStyle": {
+          "color": "#e1c315"
+        },
+        "children": [
+          {
+            "name": "sour-aromatics",
+            "label": "酸香",
+            "itemStyle": {
+              "color": "#9ea718"
+            }
+          },
+          {
+            "name": "acetic-acid",
+            "label": "醋酸",
+            "itemStyle": {
+              "color": "#94a76f"
+            }
+          },
+          {
+            "name": "butyric-acid",
+            "label": "丁酸",
+            "itemStyle": {
+              "color": "#d0b24f"
+            }
+          },
+          {
+            "name": "isovaleric-acid",
+            "label": "异戊酸",
+            "itemStyle": {
+              "color": "#8eb646"
+            }
+          },
+          {
+            "name": "citric-acid",
+            "label": "柠檬酸",
+            "itemStyle": {
+              "color": "#faef07"
+            }
+          },
+          {
+            "name": "malic-acid",
+            "label": "苹果酸",
+            "itemStyle": {
+              "color": "#c1ba07"
+            }
+          }
+        ]
+      },
+      {
+        "name": "alcohol-fremented",
+        "label": "酒精发酵味",
+        "itemStyle": {
+          "color": "#b09733"
+        },
+        "children": [
+          {
+            "name": "winey",
+            "label": "酒味",
+            "itemStyle": {
+              "color": "#8f1c53"
+            }
+          },
+          {
+            "name": "whiskey",
+            "label": "威士忌酒",
+            "itemStyle": {
+              "color": "#b34039"
+            }
+          },
+          {
+            "name": "fremented",
+            "label": "发酵味",
+            "itemStyle": {
+              "color": "#ba9232"
+            }
+          },
+          {
+            "name": "overripe",
+            "label": "过度成熟",
+            "itemStyle": {
+              "color": "#8b6439"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "green-vegetative",
+    "label": "植物蔬菜味",
+    "itemStyle": {
+      "color": "#187a2f"
+    },
+    "children": [
+      {
+        "name": "olive-oil",
+        "label": "橄榄油",
+        "itemStyle": {
+          "color": "#a2b029"
+        }
+      },
+      {
+        "name": "raw",
+        "label": "生味",
+        "itemStyle": {
+          "color": "#718933"
+        }
+      },
+      {
+        "name": "green-vegetative",
+        "label": "植物蔬菜味",
+        "itemStyle": {
+          "color": "#3aa255"
+        },
+        "children": [
+          {
+            "name": "under-ripe",
+            "label": "不成熟味",
+            "itemStyle": {
+              "color": "#a2bb2b"
+            }
+          },
+          {
+            "name": "peapod",
+            "label": "豆荚味",
+            "itemStyle": {
+              "color": "#62aa3c"
+            }
+          },
+          {
+            "name": "fresh",
+            "label": "新鲜味",
+            "itemStyle": {
+              "color": "#03a653"
+            }
+          },
+          {
+            "name": "dark-green",
+            "label": "深色蔬菜味",
+            "itemStyle": {
+              "color": "#038549"
+            }
+          },
+          {
+            "name": "vegetative",
+            "label": "植物味",
+            "itemStyle": {
+              "color": "#28b44b"
+            }
+          },
+          {
+            "name": "hay-like",
+            "label": "干草味",
+            "itemStyle": {
+              "color": "#a3a830"
+            }
+          },
+          {
+            "name": "herb-like",
+            "label": "草药味",
+            "itemStyle": {
+              "color": "#7ac141"
+            }
+          }
+        ]
+      },
+      {
+        "name": "beany",
+        "label": "豆腥味",
+        "itemStyle": {
+          "color": "#5e9a80"
+        }
+      }
+    ]
+  },
+  {
+    "name": "other",
+    "label": "其他",
+    "itemStyle": {
+      "color": "#0aa3b5"
+    },
+    "children": [
+      {
+        "name": "papery-musty",
+        "label": "纸味/霉味",
+        "itemStyle": {
+          "color": "#9db2b7"
+        },
+        "children": [
+          {
+            "name": "stale",
+            "label": "陈旧味",
+            "itemStyle": {
+              "color": "#8b8c90"
+            }
+          },
+          {
+            "name": "cardboard",
+            "label": "纸板味",
+            "itemStyle": {
+              "color": "#beb276"
+            }
+          },
+          {
+            "name": "papery",
+            "label": "纸皮味",
+            "itemStyle": {
+              "color": "#fefef4"
+            }
+          },
+          {
+            "name": "woody",
+            "label": "木质味",
+            "itemStyle": {
+              "color": "#744e03"
+            }
+          },
+          {
+            "name": "moldy/damp",
+            "label": "霉味/受潮",
+            "itemStyle": {
+              "color": "#a3a36f"
+            }
+          },
+          {
+            "name": "musty/dusty",
+            "label": "霉味/灰尘味",
+            "itemStyle": {
+              "color": "#c9b583"
+            }
+          },
+          {
+            "name": "musty/earthy",
+            "label": "霉味/泥土味",
+            "itemStyle": {
+              "color": "#978847"
+            }
+          },
+          {
+            "name": "animalic",
+            "label": "动物香",
+            "itemStyle": {
+              "color": "#9d977f"
+            }
+          },
+          {
+            "name": "meaty-brothy",
+            "label": "肉汤味",
+            "itemStyle": {
+              "color": "#cc7b6a"
+            }
+          },
+          {
+            "name": "phenolic",
+            "label": "合成塑料味",
+            "itemStyle": {
+              "color": "#db646a"
+            }
+          }
+        ]
+      },
+      {
+        "name": "chemical",
+        "label": "化工类",
+        "itemStyle": {
+          "color": "#76c0cb"
+        },
+        "children": [
+          {
+            "name": "bitter",
+            "label": "苦味",
+            "itemStyle": {
+              "color": "#80a89d"
+            }
+          },
+          {
+            "name": "salty",
+            "label": "咸味",
+            "itemStyle": {
+              "color": "#def2fd"
+            }
+          },
+          {
+            "name": "medicinal",
+            "label": "药味",
+            "itemStyle": {
+              "color": "#7a9bae"
+            }
+          },
+          {
+            "name": "petroleum",
+            "label": "石油味",
+            "itemStyle": {
+              "color": "#039fb8"
+            }
+          },
+          {
+            "name": "skunky",
+            "label": "臭鼬味",
+            "itemStyle": {
+              "color": "#5e777b"
+            }
+          },
+          {
+            "name": "rubber",
+            "label": "橡胶味",
+            "itemStyle": {
+              "color": "#120c0c"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "roasted",
+    "label": "烘烤/烘焙味",
+    "itemStyle": {
+      "color": "#c94930"
+    },
+    "children": [
+      {
+        "name": "pipe-tobacco",
+        "label": "卷烟味",
+        "itemStyle": {
+          "color": "#caa465"
+        }
+      },
+      {
+        "name": "tobacco",
+        "label": "烟草味",
+        "itemStyle": {
+          "color": "#dfbd7e"
+        }
+      },
+      {
+        "name": "burnt",
+        "label": "烧焦味",
+        "itemStyle": {
+          "color": "#be8663"
+        },
+        "children": [
+          {
+            "name": "acrid",
+            "label": "辛辣味",
+            "itemStyle": {
+              "color": "#b9a449"
+            }
+          },
+          {
+            "name": "ashy",
+            "label": "灰尘味",
+            "itemStyle": {
+              "color": "#899893"
+            }
+          },
+          {
+            "name": "smoky",
+            "label": "烟味",
+            "itemStyle": {
+              "color": "#a1743b"
+            }
+          },
+          {
+            "name": "brown-roast",
+            "label": "褐变/烘烤",
+            "itemStyle": {
+              "color": "#894810"
+            }
+          }
+        ]
+      },
+      {
+        "name": "cereal",
+        "label": "谷物类",
+        "itemStyle": {
+          "color": "#ddaf61"
+        },
+        "children": [
+          {
+            "name": "grain",
+            "label": "稻谷",
+            "itemStyle": {
+              "color": "#b7906f"
+            }
+          },
+          {
+            "name": "malt",
+            "label": "麦芽",
+            "itemStyle": {
+              "color": "#eb9d5f"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "spices",
+    "label": "香料味",
+    "itemStyle": {
+      "color": "#ad213e"
+    },
+    "children": [
+      {
+        "name": "pungent",
+        "label": "辛辣味/刺激性的味",
+        "itemStyle": {
+          "color": "#794752"
+        }
+      },
+      {
+        "name": "pepper",
+        "label": "胡椒味",
+        "itemStyle": {
+          "color": "#cc3d41"
+        }
+      },
+      {
+        "name": "brown-spice",
+        "label": "褐色香料味",
+        "itemStyle": {
+          "color": "#b14d57"
+        },
+        "children": [
+          {
+            "name": "anise",
+            "label": "茴香味",
+            "itemStyle": {
+              "color": "#c78936"
+            }
+          },
+          {
+            "name": "nutmeg",
+            "label": "肉豆蔻味",
+            "itemStyle": {
+              "color": "#8c292c"
+            }
+          },
+          {
+            "name": "cinnamon",
+            "label": "肉桂味",
+            "itemStyle": {
+              "color": "#e5762e"
+            }
+          },
+          {
+            "name": "clove",
+            "label": "丁香味",
+            "itemStyle": {
+              "color": "#a16c5a"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "nutty-cocoa",
+    "label": "坚果类",
+    "itemStyle": {
+      "color": "#a87b64"
+    },
+    "children": [
+      {
+        "name": "nutty",
+        "label": "坚果",
+        "itemStyle": {
+          "color": "#c78869"
+        },
+        "children": [
+          {
+            "name": "peanuts",
+            "label": "花生味",
+            "itemStyle": {
+              "color": "#d4ad12"
+            }
+          },
+          {
+            "name": "hazelnut",
+            "label": "榛子味",
+            "itemStyle": {
+              "color": "#9d5433"
+            }
+          },
+          {
+            "name": "almond",
+            "label": "杏仁味",
+            "itemStyle": {
+              "color": "#c89f83"
+            }
+          }
+        ]
+      },
+      {
+        "name": "cocoa",
+        "label": "可可类",
+        "itemStyle": {
+          "color": "#bb764c"
+        },
+        "children": [
+          {
+            "name": "chocolate",
+            "label": "巧克力",
+            "itemStyle": {
+              "color": "#692a19"
+            }
+          },
+          {
+            "name": "dark-chocolate",
+            "label": "黑巧克力",
+            "itemStyle": {
+              "color": "#470604"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sweet",
+    "label": "甜的",
+    "itemStyle": {
+      "color": "#e65832"
+    },
+    "children": [
+      {
+        "name": "brown-sugar",
+        "label": "红糖",
+        "itemStyle": {
+          "color": "#d45a59"
+        },
+        "children": [
+          {
+            "name": "molasses",
+            "label": "糖蜜",
+            "itemStyle": {
+              "color": "#310d0f"
+            }
+          },
+          {
+            "name": "maple-syrup",
+            "label": "枫糖浆",
+            "itemStyle": {
+              "color": "#ae341f"
+            }
+          },
+          {
+            "name": "caramelized",
+            "label": "焦糖",
+            "itemStyle": {
+              "color": "#d78823"
+            }
+          },
+          {
+            "name": "honey",
+            "label": "蜂蜜",
+            "itemStyle": {
+              "color": "#da5c1f"
+            }
+          }
+        ]
+      },
+      {
+        "name": "vanilla",
+        "label": "香草味",
+        "itemStyle": {
+          "color": "#f89a80"
+        }
+      },
+      {
+        "name": "vanillin",
+        "label": "香兰素味",
+        "itemStyle": {
+          "color": "#f37674"
+        }
+      },
+      {
+        "name": "overall-sweet",
+        "label": "总体甜味",
+        "itemStyle": {
+          "color": "#e75b68"
+        }
+      },
+      {
+        "name": "sweet-aromatics",
+        "label": "甜香味",
+        "itemStyle": {
+          "color": "#d0545f"
+        }
+      }
+    ]
+  }
+]
