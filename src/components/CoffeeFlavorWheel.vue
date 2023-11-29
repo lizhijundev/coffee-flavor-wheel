@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import * as echarts from 'echarts';
-import { ref, onMounted } from "vue";
+import { onMounted } from "vue";
 import flavor from "./coffee-flavor.json"
 
 
 function processJSON(data:any) {
   return data.map((item: any) => {
-    const processedItem = {
+    const processedItem:any = {
       name: item.label,
       itemStyle: item.itemStyle
     };
