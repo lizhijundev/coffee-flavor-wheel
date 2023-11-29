@@ -3,6 +3,7 @@
 
 ![](./coffee-flavor.png)
 
+[在线demo](http://opensource.lizhijun.com.cn/coffee-flavor-wheel/)
 ## Project Setup
 
 ```sh
