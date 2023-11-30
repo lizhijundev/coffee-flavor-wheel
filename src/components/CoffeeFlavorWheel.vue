@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import * as echarts from 'echarts';
-import { onMounted } from "vue";
+import {onMounted, onUnmounted} from "vue";
 import flavor from "./coffee-flavor.json"
 
 
@@ -43,16 +43,27 @@ const option: any =  {
   ]
 }
 
+let chart:any = null
 
+function resizeChart() {
+  chart && chart.resize();
+}
 onMounted(() => {
   // 获取dom，断言HTMLElement类型，否则会报错
   const chartEle: HTMLElement = document.getElementById('coffee-flavor') as HTMLElement;
-  const chart = echarts.init(chartEle);
+  chart = echarts.init(chartEle);
   option && chart.setOption(option);
+  // resize
+  window.addEventListener('resize', resizeChart);
+})
+
+onUnmounted(() => {
+  chart && chart.dispose();
+  window.removeEventListener('resize', resizeChart);
 })
 </script>
 <template>
-  <div id="coffee-flavor" style="width: 800px; height: 100vh;"></div>
+  <div id="coffee-flavor" style="width: 100%;height: 100%;"></div>
 </template>
 
 
